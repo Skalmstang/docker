@@ -1,4 +1,3 @@
-
 FROM balenalib/%%BALENA_MACHINE_NAME%%-python:2.7
 EXPOSE 5000
 LABEL maintainer "gaetancollaud@gmail.com"
