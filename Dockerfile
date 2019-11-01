@@ -44,7 +44,7 @@ RUN git clone --branch $tag https://github.com/foosel/OctoPrint.git /opt/octopri
   && virtualenv venv \
 	&& ./venv/bin/python setup.py install
 
-VOLUME /home/octoprint/.octoprint
+#VOLUME /home/octoprint/.octoprint
 
 
 CMD ["/opt/octoprint/venv/bin/octoprint", "serve"]
