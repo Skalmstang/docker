@@ -6,6 +6,7 @@ LABEL maintainer "gaetancollaud@gmail.com"
 ENV CURA_VERSION=15.04.6
 ARG tag=master
 
+COPY ./config:/home/octoprint/.octoprint
 WORKDIR /opt/octoprint
 
 # In case of alpine

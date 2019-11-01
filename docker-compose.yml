@@ -8,5 +8,5 @@ services:
       - 5000:5000
     # devices:
     #  - /dev/ttyACM0:/dev/ttyACM0
-    volumes:
-     - ./config:/home/octoprint/.octoprint
+#    volumes:
+#     - ./config:/home/octoprint/.octoprint
